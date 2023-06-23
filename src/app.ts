@@ -1,20 +1,12 @@
-import express from 'express'
+import app from "./config"
+import dotenv from "dotenv"
 
-import { Router, Request, Response } from 'express';
+dotenv.config()
+const port = process.env.PORT ? parseInt(process.env.PORT) : 3000
 
-const app = express();
-
-const route = Router()
-
-app.use(express.json())
-
-route.get('/', (req: Request, res: Response) => {
-    res.json({ message: 'Deu bom' })
-})
-
-app.use(route)
-
-
-app.listen(3000, () => {
-    console.log("Servidor rodando")
+app.listen(port, () => {
+    console.table({
+        Status: "Working",
+        Port: port
+    })
 })
