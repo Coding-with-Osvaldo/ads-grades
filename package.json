@@ -4,6 +4,9 @@
   "description": "",
   "type": "module",
   "main": "src/app.ts",
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
     "build": "tsup src",
     "start": "node dist/app.cjs",
