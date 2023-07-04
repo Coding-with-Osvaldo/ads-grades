@@ -10,6 +10,7 @@ export class FindGradePeriodController {
                     periodId: parseInt(id)
                 },
                 select: {
+                    id: true,
                     description: true,
                     periodId: true,
                     Teacher: true

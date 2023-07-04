@@ -7,6 +7,7 @@ export class FindGradeController {
         try {
             const grade = await prismaClient.grade.findFirst({
                 select: {
+                    id: true,
                     description: true,
                     periodId: true,
                     Teacher: true
