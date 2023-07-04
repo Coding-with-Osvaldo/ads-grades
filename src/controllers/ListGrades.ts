@@ -8,7 +8,8 @@ export class ListGradesController {
                 select: {
                     description: true,
                     periodId: true,
-                    Teacher: true
+                    Teacher: true,
+                    id: true
                 },
             })
             return response.json(grades)
