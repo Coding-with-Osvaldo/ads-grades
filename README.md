@@ -24,11 +24,12 @@ saber mais sobre as cadeiras que ainda irão pagar</p>
 + Acesso a internet
 
 <h2>:railway_track: Rotas implementadas: </h2>
-+ "/grades" => JSON com lista de todas as disciplinas cadastradas
-+ "/grade/{id}" => JSON com todas as informações de uma disciplina
-+ "/teachers" => JSON com lista de todos os professores
-+ "/peridod/{id}" => JSON com lista de todas as disciplinas de determinado periodo
-+ "/" => Informa se o servidor está funcionado
+
++ <p>"/grades" => JSON com lista de todas as disciplinas cadastradas</p>
++ <p>"/grade/{id}" => JSON com todas as informações de uma disciplina</p>
++ <p>"/teachers" => JSON com lista de todos os professores</p>
++ <p>"/peridod/{id}" => JSON com lista de todas as disciplinas de determinado periodo</p>
++ <p>"/" => Informa se o servidor está funcionado</p>
 
 <h2>:black_nib: Autores</h2>
 
